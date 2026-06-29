@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi K3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">Halaman Materi</span>
+            <a href="index.html" class="nav-btn" style="text-decoration: none; color: var(--text-muted);">Tutup & Kembali</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="header">
+            <h1 id="materi-title">Memuat...</h1>
+            <p id="materi-subtitle">Silakan baca materi hari ini dengan saksama.</p>
+        </div>
+
+        <div class="day-body" style="display: block; border-radius: var(--radius); border-top: 1px solid var(--border); margin-top: 20px;">
+            <div id="materi-content" class="materi-text">
+                </div>
+            
+            <hr style="margin: 30px 0; border: none; border-top: 1px solid var(--border);">
+            
+            <a href="#" id="btn-lanjut-soal" class="action-btn">
+                Materi Selesai, Kerjakan Evaluasi
+            </a>
+        </div>
+    </main>
+
+    <script src="database/questions.js"></script>
+    <script src="js/materi.js"></script>
+</body>
+</html>

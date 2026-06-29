@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi K3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">Halaman Kuis</span>
+            <a href="index.html" class="nav-btn" style="text-decoration: none; color: var(--text-muted);">Kembali ke Menu Utama</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h2 id="quiz-title" style="margin-bottom: 25px; font-size: 1.5rem; color: var(--text-main);">Memuat Soal...</h2>
+        
+        <div id="quiz-container">
+            </div>
+
+        <div id="completion-section" style="display: none; margin-top: 30px; padding: 30px 20px; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow-sm); border: 1px solid var(--border); text-align: center;">
+            <h3 style="margin-bottom: 10px; color: var(--text-main); font-size: 1.4rem;">Evaluasi Selesai! 🎉</h3>
+            <p id="score-text" style="font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: 25px;"></p>
+            
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <button onclick="window.location.reload()" class="action-btn" style="width: auto; margin-top: 0; background-color: var(--text-muted);">🔄 Kerjakan Ulang</button>
+                
+                <button onclick="kembaliKeMateri()" class="action-btn" style="width: auto; margin-top: 0;">📖 Kembali ke Materi</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="database/questions.js"></script>
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>

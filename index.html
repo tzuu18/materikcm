@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning K3 - Persiapan Ujian</title>
+    <!-- Pastikan folder css ada di lokasi yang sama dengan file index.html -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR UTAMA -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">Kelas K3 Tokutei</span>
+            
+            <!-- Tombol Hamburger untuk HP -->
+            <button class="menu-toggle" onclick="toggleNavbarMenu()">☰</button>
+            
+            <!-- Daftar Menu Navigasi -->
+            <div class="nav-menu" id="navbarMenu">
+                <!-- Tombol Navigasi Minggu -->
+                <button class="nav-btn active" onclick="switchWeek(1, this)">Minggu 1</button>
+                <button class="nav-btn" onclick="switchWeek(2, this)">Minggu 2</button>
+                <button class="nav-btn" onclick="switchWeek(3, this)">Minggu 3</button>
+                <button class="nav-btn" onclick="switchWeek(4, this)">Minggu 4</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- AREA KONTEN UTAMA -->
+    <main class="main-content">
+        <div class="header">
+            <h1>Ruang Belajar Mandiri</h1>
+            <p>Pilih minggu di atas untuk melihat materi. Klik tombol kuis untuk menguji pemahaman Anda.</p>
+        </div>
+
+        <!-- Wadah tempat konten akan muncul otomatis dari app.js -->
+        <div id="materi-container">
+            <!-- Loading message jika data butuh waktu -->
+            <p>Memuat materi...</p>
+        </div>
+    </main>
+
+    <!-- SCRIPT (PENTING: Database harus di atas app.js) -->
+    <script src="database/questions.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
