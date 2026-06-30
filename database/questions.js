@@ -167,6 +167,180 @@ const studyDatabase = [
             { question: "19. この ひょうしきの あるところには はいっては いけません。",image:"assets/images/soal-19.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
             { question: "20. じどうくぎうちきを つかうときは ほごめがねを かけます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 }
         ]
+    },
+{
+        id: 5,
+        week: 1,
+        day: "Hari 5",
+        title: "Pengemasan Industri & Material",
+        content: `
+            <div class="materi-list" style="line-height: 1.8;">
+                <p>1. <strong>こうぎょうほうそうとは かもつの ゆそうや ほかんすることを もくてきとした ほうそうを いいます。</strong><br><em>Industri pengemasan adalah pengemasan yang ditujukan untuk mengangkut dan menyimpan muatan.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>2. <strong>ないそうとは ほうそうかもつの がいぶの ほうそうを いいます。</strong><br><em>Interior mengacu pada pengemasan muatan yang dikemas.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>3. <strong>もくざいや ごうはんを つかった はこを きばこと いいます。</strong><br><em>Kotak yang terbuat dari kayu atau triplek disebut kotak kayu.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>4. <strong>じどうくぎうちきは おなじきかいで くぎも ステーブルもつかえます。</strong><br><em>Mesin Paku otomatis adalah mesin yang sama dan dapat menggunakan paku dan isi staples.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>5. <strong>ぽりえちれんかこうし は ひーとしーらで せっちゃく できます。</strong><br><em>Pemrosesan polietilen dapat direkatkan dengan heat sealer.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>6. <strong>かんそうざいいれて ひーとしーるした ほうそうを ぼうしつほうそうと いいます。</strong><br><em>Paket yang disegel panas dengan heat sealer disebut paket tahan lembab.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>7. <strong>だんぼーるの おもな ざいりょうは らいなーと なかしんと のりです。</strong><br><em>Bahan utama karton adalah liner, inti karton (yang bergelombang) dan lem.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>8. <strong>ずのような きぶし または きぶしぐんは もくざいの つよさに えいきょうしません。</strong><br><em>Tanaman Kibushi atau Kibushi-gun seperti yang ditunjukkan tidak mempengaruhi kekuatan kayu.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal 8.png" alt="soal 8" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>9. <strong>ずの ぱれっとは しほうから さしこむことが できます。</strong><br><em>Palet yang ditunjukkan pada gambar dapat disisipkan dari semua sisi.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal 9.png" alt=" soal9" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>10. <strong>ずの きばこ は かるい せいひん の ほうそうに つかわれています。</strong><br><em>Kotak kayu yang ditunjukkan pada gambar digunakan untuk mengemas produk ringan.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal 10.png" alt= soal 10" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+            </div>
+        `,
+        quizzes: [
+            { question: "1. こうぎょうほうそうとは かもつの ゆそうや ほかんすることを もくてきとした ほうそうを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "2. ないそうとは ほうそうかもつの がいぶの ほうそうを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "3. もくざいや ごうはんを つかった はこを きばこと いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "4. じどうくぎうちきは おなじきかいで くぎも ステーブルもつかえます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "5. ぽりえちれんかこうし は ひーとしーらで せっちゃく できます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "6. かんそうざいいれて ひーとしーるした ほうそうを ぼうしつほうそうと いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "7. だんぼーるの おもな ざいりょうは らいなーと なかしんと のりです。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "8. ずのような きぶし または きぶしぐんは もくざいの つよさに えいきょうしません。",image:'assets/images/soal 8.png', options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "9. ずの ぱれっとは しほうから さしこむことが できます。", image:'assets/images/soal 9.png',options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "10. ずの きばこ は かるい せいひん の ほうそうに つかわれています。",image:'assets/images/soal 10.png', options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 }
+        ]
+    },
+    {
+        id: 6,
+        week: 1,
+        day: "Hari 6",
+        title: "Praktik Pengemasan & Simbol (Lanjutan)",
+        content: `
+            <div class="materi-list" style="line-height: 1.8;">
+                <p>11. <strong>ずは こししたつき きばこ です。</strong><br><em>Gambar tersebut menunjukkan kotak kayu dengan bagian bawah.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-11.png" alt="soal2-11" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>12. <strong>がわや つまが ごうはんのばあいは けんざんによって ほきょうします。</strong><br><em>Jika sisi atau ujungnya adalah triplek, maka akan diperkuat dengan kenzan (sekrup obeng).</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>13. <strong>ずの てーぷのはりかたは Hばり といいます。</strong><br><em>Metode penempelan pita pada gambar disebut metode penempelan H.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-13.png" alt="soal2-13" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>14. <strong>ずの だんぼーるばこの ふたの おりこみは ①→②の じゅんで おりまげます。</strong><br><em>Lipat tutup kotak karton pada gambar dengan urutan ① → ②.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-14.png" alt="soal2-14" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>15. <strong>このまーくは たおれやすい かもつの ことを しめします。</strong><br><em>Tanda ini menandakan muatan yang rawan jatuh.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-15.png" alt="soal2-15" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>16. <strong>このマークが ついている かもつは おくがいに ほかんしては いけません。</strong><br><em>muatan dengan tanda ini tidak boleh disimpan di luar ruangan.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-16.png" alt="soal2-16" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>17. <strong>このまーくは かもつの うえほうこう をしめします。</strong><br><em>Tanda ini menunjukkan arah muatan ke atas.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-17.png" alt="soal2-17" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>18. <strong>まーきんぐには くろいろの いんくは つかえません。</strong><br><em>Tinta hitam tidak digunakan untuk menandai barang.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>19. <strong>この ひょうしきの あるところでは たばこを すっても よいです。</strong><br><em>Anda boleh merokok di mana pun tanda ini berada.</em><br>
+                <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal2-19.png" alt="soal 15" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>20. <strong>でんきどりるを つかうときは てぶくろを はめます。</strong><br><em>Kenakan sarung tangan saat menggunakan bor listrik.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+            </div>
+        `,
+        quizzes: [
+            { question: "11. ずは こししたつき きばこ です。",image:"assets/images/soal2-11.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "12. がわや つまが ごうはんのばあいは けんざんによって ほきょうします。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "13. ずの てーぷのはりかたは Hばり といいます。",image:"assets/images/soal2-13.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "14. ずの だんぼーるばこの ふたの おりこみは ①→②の じゅんで おりまげます。",image:"assets/images/soal2-14.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "15. このまーくは たおれやすい かもつの ことを しめします。",image:"assets/images/soal2-15.png" ,options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "16. このマークが ついている かもつは おくがいに ほかんしては いけません。",image:"assets/images/soal2-16.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "17. このまーくは かもつの うえほうこう をしめします。",image:"assets/images/soal2-17.png" ,options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "18. まーきんぐには くろいろの いんくは つかえません。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "19. この ひょうしきの あるところでは たばこを すっても よいです。",image:"assets/images/soal2-19.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "20. でんきどりるを つかうときは てぶくろを はめます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 }
+        ]
+    },
+    {
+        id: 7,
+        week: 1,
+        day: "Hari 7",
+        title: "Konsep & Jenis Pengemasan Industri",
+        content: `
+            <div class="materi-list" style="line-height: 1.8;">
+                <p>1. <strong>こうぎょうほうそうとは かもつの ゆそうや ほかんすることを もくてきとした ほうそうを いいます。</strong><br><em>Industri pengemasan adalah pengemasan yang ditujukan untuk mengangkut dan menyimpan muatan.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>2. <strong>がいそうとは ほうそうかもつの がいぶの ほうそうを いいます。</strong><br><em>Eksterior adalah kemasan luar dari kemasan.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>3. <strong>きばことは みっぺいばこ のことを いいます。</strong><br><em>Kotak kayu adalah kotak segel.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>4. <strong>はんどしーらとは ひーとしーる どうぐを いいます。</strong><br><em>Handsealer adalah alat segel panas.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>5. <strong>じどうくぎうちきは あっしゅく くうきを つかいます。</strong><br><em>Mesin paku otomatis menggunakan kompresor udara.</em><br><span style="color:green">Status: ○ (BENAR)</span></p>
+                
+                <p>6. <strong>ぼうすいほうそう とは かんそうざいを ほうそうないぶに いれた ほうそうを いいます。</strong><br><em>Kemasan pembungkus air adalah kemasan di mana pengering ditempatkan di dalam kemasan.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>7. <strong>ずのような きぶし または きぶしぐん は もくざいの つよさに えいきょうしません。</strong><br><em>Tanaman Kibushi atau Kibushi-gun seperti yang ditunjukkan tidak mempengaruhi kekuatan kayu.</em><br>
+                 <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal3-7.png" alt="soal3-7" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>8. <strong>ごうはん は こうようじゅ を つかった ものだけを いいます。</strong><br><em>Kayu lapis hanya mengacu pada yang terbuat dari pohon berdaun lebar.</em><br><span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>9. <strong>ずの パレット は りょうめんを つかう ことが できます。</strong><br><em>Palet pada gambar kedua sisinya dapat digunakan.</em><br>
+                 <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal3-9.png" alt="soal3-9" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:red">Status: × (SALAH)</span></p>
+                
+                <p>10. <strong>ずの きばこ の けいしきは IC-5がた (どうざんつき) です。</strong><br><em>Format kotak kayu pada gambar adalah tipe IC-5 (dengan sisa bodi box).</em><br>
+                 <div style="text-align: center; margin: 15px 0;">
+        <img src="assets/images/soal3-10.png" alt="soal3-10" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    </div>
+                <span style="color:green">Status: ○ (BENAR)</span></p>
+            </div>
+        `,
+        quizzes: [
+            { question: "1. こうぎょうほうそうとは かもつの ゆそうや ほかんすることを もくてきとした ほうそうを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "2. がいそうとは ほうそうかもつの がいぶの ほうそうを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "3. きばことは みっぺいばこ のことを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "4. はんどしーらとは ひーとしーる どうぐを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "5. じどうくぎうちきは あっしゅく くうきを つかいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 },
+            { question: "6. ぼうすいほうそう とは かんそうざいを ほうそうないぶに いれた ほうそうを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "7. ずのような きぶし または きぶしぐん は もくざいの つよさに えいきょうしません。",image:"assets/images/soal3-7.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "8. ごうはん は こうようじゅ を つかった ものだけを いいます。", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "9. ずの パレット は りょうめんを つかう ことが できます。",image:"assets/images/soal3-9.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 1 },
+            { question: "10. ずの きばこ の けいしきは IC-5がた (どうざんつき) です。",image:"assets/images/soal3-10.png", options: ["A. はい (正しい)", "B. いいえ (誤り)"], answer: 0 }
+        ]
     }
-    
 ];
